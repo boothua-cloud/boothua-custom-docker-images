@@ -1,5 +1,7 @@
 FROM debian:stable
 
+LABEL org.opencontainers.image.authors="yid-h[boothua@163.com]"
+
 ENV DANTE_VER 1.4.3
 
 RUN apt-get update && \
