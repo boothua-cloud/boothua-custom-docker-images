@@ -7,7 +7,7 @@ Since the official dante image does not support the arm64 architecture of the cp
 version: '3'
 services:
   dante:
-    image: harbor.haiyucloud.cn/library/dante
+    image: boothua/dante
     container_name: dante
     hostname: dante
     restart: always
